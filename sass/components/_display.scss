@@ -1,0 +1,38 @@
+.calculator-container {
+
+    .display {
+        // max-width: 295px;
+        min-height: 126px;
+        padding: 15px 15px 10px 0;
+        margin-bottom: 1em;
+        background: $color-1;
+        color: #f32b8a;
+        font-family: $font-2;
+        box-shadow: 3px 3px 55px $color-dark;
+
+            .display--top,
+            .display--bottom {
+                box-sizing: border-box;
+                word-wrap: break-word;
+                word-break: break-all;
+                text-align: right;
+            }
+
+            .display--top {
+                display: flex;
+                justify-content: flex-end;
+                min-height: 45px;
+            }
+
+            .numOnTop,
+            .mathSign {
+                margin: 0;
+                padding-left: 5px;
+                font-size: 1.8em;
+            }
+
+            .numOnBottom {
+                font-size: 2.4em;
+            }
+    }
+}
