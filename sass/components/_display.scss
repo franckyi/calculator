@@ -1,14 +1,14 @@
 .calculator-container {
 
     .display {
-        // max-width: 295px;
         min-height: 126px;
         padding: 15px 15px 10px 0;
         margin-bottom: 1em;
-        background: $color-1;
-        color: #f32b8a;
-        font-family: $font-2;
-        box-shadow: 3px 3px 55px $color-dark;
+        background: $color-primary;
+        color: rgb(58, 58, 58);
+        font-family: $font-primary;
+        border: 2px solid $color-primary--dark;
+        box-shadow: 3px 3px 55px #e5e5e5;
 
             .display--top,
             .display--bottom {

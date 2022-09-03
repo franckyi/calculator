@@ -1,8 +1,14 @@
 @import "base/reset";
 @import "base/typography";
 @import "base/variables";
-@import "components/bg";
 @import "components/buttons";
 @import "components/display";
 
-
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    background: #b4b4b4;
+}
