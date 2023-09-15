@@ -5,11 +5,11 @@
 
 # Node artifact files
 node_modules/
-dist/
+# dist/
 
 # Styles
-style.css
-style.css.map
+# style.css
+# style.css.map
 
 # Compiled Java class files
 *.class
