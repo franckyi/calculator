@@ -11,7 +11,7 @@ const backBtn = document.querySelector('.backspace');
 let result = '';
 
 function showHearts() {
-    numOnBottom.innerHTML = '❤️ Love U ❤️'
+    numOnBottom.innerHTML = '💕 Anais Joy 💕'
 }
 
 function addOperands() {

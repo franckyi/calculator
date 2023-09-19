@@ -1,38 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,700;1,400&family=VT323&display=swap");
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+html {
+  background: #f4eae9;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+  background: url(img/anais.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
 }
 
 button, .equals, .hearts {
-  background: #cdcdcd;
+  background: white;
+  border-color: #ff9edd;
   border-radius: 50%;
   font-size: 2.3em;
-  color: #3d3d3d;
-  box-shadow: 5px 5px 9px #696969, -6px -5px 5px white, 5px 5px 4px #3b3b3b, 4px -4px 3px #606060, -3px 3px 3px #3a3a3a;
-  border: 3px solid #b8b8b8;
+  color: #f32b8a;
+  font-weight: 600;
+  font-family: "Inter", monospace;
 }
 button:hover, .equals:hover, .hearts:hover {
-  background: #b1b1b1;
+  background: #61ccfe;
+  color: white;
   cursor: pointer;
 }
 
 .operator {
-  background: #61ccfe;
+  background: #ff9edd;
   color: white;
 }
 .operator:hover {
-  background: #4daedc;
+  background: #61ccfe;
   color: white;
 }
 
 .backspace, .clear {
-  background: #61ccfe;
-  color: #fff;
+  background: #ffc930;
+  color: #444;
 }
 .backspace:hover, .clear:hover {
-  background: #4daedc;
+  background: #61ccfe;
   color: white;
 }
 
@@ -45,7 +62,7 @@ button:hover, .equals:hover, .hearts:hover {
   justify-content: center;
   grid-template-columns: repeat(4, 70px);
   grid-template-rows: repeat(5, 70px);
-  gap: 15px;
+  gap: 10px;
 }
 
 .col2 {
@@ -57,14 +74,13 @@ button:hover, .equals:hover, .hearts:hover {
 }
 
 .calculator-container .display {
-  min-height: 126px;
+  min-height: 90px;
   padding: 15px 15px 10px 0;
   margin-bottom: 1em;
-  background: #61ccfe;
-  color: rgb(58, 58, 58);
+  background: #f4eae9;
+  color: #f32b8a;
   font-family: "Quantico", monospace;
-  border: 2px solid #4daedc;
-  box-shadow: 3px 3px 55px #e5e5e5;
+  box-shadow: 3px 3px 55px #ddb5a7;
 }
 .calculator-container .display .display--top,
 .calculator-container .display .display--bottom {
@@ -86,15 +102,6 @@ button:hover, .equals:hover, .hearts:hover {
 }
 .calculator-container .display .numOnBottom {
   font-size: 2.4em;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 2em;
-  background: #b4b4b4;
 }
 
 /*# sourceMappingURL=style.css.map */
